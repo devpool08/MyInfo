@@ -15,7 +15,7 @@
 <img align='right' src="https://raw.githubusercontent.com/iCharlesZ/FigureBed/master/img/octocat.gif" width="230">
 
 
-<h3>Git Stats </h3>
+<h3>Git Stats</h3>
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=datt03&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/datt03)
 
