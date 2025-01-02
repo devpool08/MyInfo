@@ -1,4 +1,4 @@
-<img src="https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/dynamic.svg"/>
+<img src="https://github.com/datt03/MyInfo/blob/main/dynamic.svg"/>
 
 <p><em>A bachelor student at <a href="https://hogent.be">University College Ghent</a>, majoring in Computer Science. 😊</br>
 </em></p>
