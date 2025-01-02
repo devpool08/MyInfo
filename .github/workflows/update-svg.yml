@@ -1,0 +1,27 @@
+name: Update SVG
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Update every hour
+  push:
+    branches:
+      - main
+
+jobs:
+  update-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update SVG with username
+        run: |
+          sed -i "s/USERNAME/${{ github.actor }}/g" dynamic.svg
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add dynamic.svg
+          git commit -m "Update SVG with username"
+          git push
